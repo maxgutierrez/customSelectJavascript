@@ -54,7 +54,7 @@ body{
 .select-box .options-container.active{ /* espaçamento entre classes de tag parent*/
   max-height: 240px;
   opacity: 1;
-  overflow: scroll;/*o efeito de rolar a pagina WOW! */
+  overflow-y: scroll;/*o efeito de rolar a pagina WOW! */
 }
 .select-box .options-container.active + .selected::after{
   transform: rotateX(180deg);
